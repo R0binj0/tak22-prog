@@ -5,3 +5,5 @@ if len(a)>= 7:
         print("sobib")
     else:
         print("ei sobi")
+
+print(a[len(a)//2-1:len(a)//2+2])

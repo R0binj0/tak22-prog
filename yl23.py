@@ -19,7 +19,7 @@ def võrdle(dealerkaardid, kasutajakaardid):
     elif dealer_punktid == 0:
         return "Dealer on Blackjack "
     elif kasutaja_punktid == dealer_punktid:
-        return "PUSH"
+        return "Viik dealer võitis"
     elif kasutaja_punktid > 21:
         return "Sa läksid üle, dealer võitis "
     elif dealer_punktid > 21:
